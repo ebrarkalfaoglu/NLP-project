@@ -2,13 +2,13 @@
 
 ## Progression
 
-### Week 1
+### Week 1: Base Model
 
 In the first week, I downloaded the base model, Qwen2.5-Coder-1.5B, and tested it with a prompt. Here is one successful answer:
 
 <img width="1706" height="643" alt="image" src="https://github.com/user-attachments/assets/7a991663-9e75-44c8-a5f8-c68911150437" />
 
-## Week 2: Dataset Analysis
+### Week 2: Dataset Analysis
 
 In the second week, we downloaded and prepared the required datasets for fine-tuning.
 

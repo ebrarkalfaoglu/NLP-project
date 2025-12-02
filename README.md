@@ -33,9 +33,11 @@ This week, we converted both the Deep and Diverse datasets into JSONL format to 
   - down_proj
 We then trained the model first on the Deep dataset to help it learn structured formatting and consistent input/output behavior, and subsequently on the Diverse dataset to improve its generalization and ability to handle a broader range of problem types. Together, these steps prepared the model for the final stage of fine-tuning on our custom topic, “Authors and Their Works.”
 
-Here is screenshots:
+Here is a screenshot:
 
 <img width="546" height="72" alt="image" src="https://github.com/user-attachments/assets/ec75c4ac-64a6-4823-9512-5ae330af7b97" />
+
+I tested model with a that prompt:
 
 <img width="1361" height="581" alt="image" src="https://github.com/user-attachments/assets/5bc259ed-2286-4661-bfa5-a7fbe77870da" />
 

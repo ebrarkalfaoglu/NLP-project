@@ -22,3 +22,8 @@ In the second week, we downloaded and prepared the required datasets for fine-tu
 
 The datasets are now ready for fine-tuning the model.
 
+### Week 3
+
+<img width="546" height="72" alt="image" src="https://github.com/user-attachments/assets/ec75c4ac-64a6-4823-9512-5ae330af7b97" />
+
+

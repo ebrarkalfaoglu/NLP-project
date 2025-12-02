@@ -12,13 +12,8 @@ In the first week, I downloaded the base model, Qwen2.5-Coder-1.5B, and tested i
 
 In the second week, we downloaded and prepared the required datasets for fine-tuning.
 
-- **Datasets used**: Deep (5K examples) and Diverse (5K examples)
-- **Fields extracted**:
-  - `solution`: code-only, used for training
-  - `output`: reasoning traces (<think> tags), optional for reasoning enhancement
-- **Total examples collected**:
-  - Solutions: 10,000
-  - Outputs: 10,000
+<img width="1302" height="682" alt="image" src="https://github.com/user-attachments/assets/b76453e5-b3ab-45e0-856a-6d19de111205" />
+
 
 The datasets are now ready for fine-tuning the model.
 

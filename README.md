@@ -76,8 +76,7 @@ This indicates that additional training did not necessarily translate into bette
 - Early checkpoints can outperform later ones on real-world tasks
 - Loss-based evaluation alone is insufficient for final model selection
 - Benchmark-based evaluation provides a more reliable criterion for selecting the best checkpoint
-
-Based on these results, checkpoint-step-200-epoch-0 was selected as the final model for downstream use.
+  
 
 
 

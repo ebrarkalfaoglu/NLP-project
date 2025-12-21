@@ -54,6 +54,7 @@ Only the solution field of each dataset was used during training.
 - Despite minor fluctuations, training remains stable without overfitting.
 
 Overall, the DEEP dataset enables more effective and consistent learning, while the DIVERSE dataset provides stable but more limited improvements due to its heterogeneous structure.
+
 At the end of Week 3, we obtained two independently fine-tuned LoRA models, which are ready for further evaluation and benchmarking in the next stage of the project.
 
 

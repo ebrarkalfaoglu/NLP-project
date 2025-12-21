@@ -45,8 +45,6 @@ Only the solution field of each dataset was used during training.
 
 #### Observations
 
-#### Observations
-
 - The DEEP-LoRA model shows a steady and continuous decrease in both training and validation loss.
 - Training and validation curves follow a similar trend, indicating stable learning and good generalization.
 - No signs of overfitting were observed during DEEP training.

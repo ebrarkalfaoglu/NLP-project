@@ -45,10 +45,17 @@ Only the solution field of each dataset was used during training.
 
 #### Observations
 
-- Both models successfully converged during training
-- The loss curves indicate stable learning behavior
-- Differences in loss trends reflect the structural differences between the DEEP and DIVERSE datasets
+#### Observations
 
+- The DEEP-LoRA model shows a steady and continuous decrease in both training and validation loss.
+- Training and validation curves follow a similar trend, indicating stable learning and good generalization.
+- No signs of overfitting were observed during DEEP training.
+
+- The DIVERSE-LoRA model demonstrates an initial rapid decrease in training loss, followed by an early plateau.
+- Validation loss for the DIVERSE model stabilizes early, suggesting limited additional generalization after a certain point.
+- Despite minor fluctuations, training remains stable without overfitting.
+
+Overall, the DEEP dataset enables more effective and consistent learning, while the DIVERSE dataset provides stable but more limited improvements due to its heterogeneous structure.
 At the end of Week 3, we obtained two independently fine-tuned LoRA models, which are ready for further evaluation and benchmarking in the next stage of the project.
 
 

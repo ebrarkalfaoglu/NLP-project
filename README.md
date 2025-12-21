@@ -78,6 +78,9 @@ This indicates that additional training did not necessarily translate into bette
 - Benchmark-based evaluation provides a more reliable criterion for selecting the best checkpoint
 
 Based on these results, checkpoint-step-200-epoch-0 was selected as the final model for downstream use.
+
+
+
 In addition to the DEEP model, we evaluated all DIVERSE-LoRA checkpoints using the same benchmark setup to ensure a fair comparison between the two training strategies.
 All evaluations were conducted on 41 AtCoder-style programming problems, and performance was measured using the Pass@1 metric.
 

@@ -78,5 +78,24 @@ This indicates that additional training did not necessarily translate into bette
 - Benchmark-based evaluation provides a more reliable criterion for selecting the best checkpoint
 
 Based on these results, checkpoint-step-200-epoch-0 was selected as the final model for downstream use.
+In addition to the DEEP model, we evaluated all DIVERSE-LoRA checkpoints using the same benchmark setup to ensure a fair comparison between the two training strategies.
+All evaluations were conducted on 41 AtCoder-style programming problems, and performance was measured using the Pass@1 metric.
+
+<img width="802" height="348" alt="image" src="https://github.com/user-attachments/assets/be9af551-64be-46d6-82b6-68e1cbf34ba7" />
+
+#### Best Checkpoint Selection (DIVERSE)
+
+The checkpoint checkpoint-step-600-epoch-2 achieved the highest benchmark performance with a Pass@1 score of 31.7%, making it the best-performing DIVERSE model.
+
+Similar to the DEEP model, benchmark performance does not strictly improve with additional training steps.
+While several checkpoints achieved comparable results, the selected checkpoint demonstrated the strongest overall performance on real coding tasks.
+
+#### Observations
+
+- Benchmark performance fluctuates across training steps
+- Later checkpoints do not consistently outperform earlier ones
+- The DIVERSE dataset leads to competitive benchmark results despite higher data variability
+- Benchmark-based evaluation is necessary to identify the optimal checkpoint
+
 
 

@@ -17,8 +17,7 @@ In the second week, we downloaded and prepared the required datasets for fine-tu
 
 The datasets are now ready for fine-tuning the model.
 
-### Week 3
-Week 3: Fine-Tuning with LoRA (DEEP & DIVERSE)
+### Week 3 Fine-Tuning with LoRA (DEEP & DIVERSE)
 
 In the third week, we fine-tuned the base model Qwen2.5-Coder-1.5B using LoRA (Low-Rank Adaptation) on two different datasets: DEEP and DIVERSE.
 

@@ -1,4 +1,4 @@
-# NLP-project
+# NLP-project-LoRa
 
 ## Progression
 

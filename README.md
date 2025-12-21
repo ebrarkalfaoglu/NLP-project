@@ -64,4 +64,20 @@ The benchmark evaluation was conducted on 41 programming problems, and performan
 
 <img width="961" height="408" alt="image" src="https://github.com/user-attachments/assets/c9a37142-4892-4524-8a82-8b97f0825a92" />
 
+#### Best Checkpoint Selection
+
+The checkpoint checkpoint-step-200-epoch-0 achieved the highest benchmark performance with a Pass@1 score of 31.7%.
+
+Although later checkpoints continued training and achieved lower training loss values, their benchmark performance did not surpass this result.
+This indicates that additional training did not necessarily translate into better generalization on real coding tasks.
+
+#### Observations
+
+- Benchmark performance does not monotonically increase with training steps
+- Early checkpoints can outperform later ones on real-world tasks
+- Loss-based evaluation alone is insufficient for final model selection
+- Benchmark-based evaluation provides a more reliable criterion for selecting the best checkpoint
+
+Based on these results, checkpoint-step-200-epoch-0 was selected as the final model for downstream use.
+
 

@@ -48,7 +48,6 @@ Only the solution field of each dataset was used during training.
 - The DEEP-LoRA model shows a steady and continuous decrease in both training and validation loss.
 - Training and validation curves follow a similar trend, indicating stable learning and good generalization.
 - No signs of overfitting were observed during DEEP training.
-
 - The DIVERSE-LoRA model demonstrates an initial rapid decrease in training loss, followed by an early plateau.
 - Validation loss for the DIVERSE model stabilizes early, suggesting limited additional generalization after a certain point.
 - Despite minor fluctuations, training remains stable without overfitting.

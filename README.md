@@ -83,7 +83,7 @@ All evaluations were conducted on 41 AtCoder-style programming problems, and per
 
 <img width="802" height="348" alt="image" src="https://github.com/user-attachments/assets/be9af551-64be-46d6-82b6-68e1cbf34ba7" />
 
-#### Best Checkpoint Selection (DIVERSE)
+#### Best Checkpoint Selection 
 
 The checkpoint checkpoint-step-600-epoch-2 achieved the highest benchmark performance with a Pass@1 score of 31.7%, making it the best-performing DIVERSE model.
 

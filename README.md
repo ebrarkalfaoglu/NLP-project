@@ -57,5 +57,11 @@ Overall, the DEEP dataset enables more effective and consistent learning, while 
 
 At the end of Week 3, we obtained two independently fine-tuned LoRA models, which are ready for further evaluation and benchmarking in the next stage of the project.
 
+### Week 4: Benchmark Evaluation
+In the fourth week, we evaluated the trained DEEP-LoRA checkpoints using a benchmark-based evaluation framework.
+The goal of this stage was to measure the real-world code generation performance of each checkpoint beyond loss-based evaluation.
+The benchmark evaluation was conducted on 41 programming problems, and performance was measured using the Pass@1 metric.
+
+<img width="961" height="408" alt="image" src="https://github.com/user-attachments/assets/c9a37142-4892-4524-8a82-8b97f0825a92" />
 
 
